@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3 id="con">Convert</h3>
+    <h4 id="tem">Temperature</h4>
+    <h5>to/from Celsius,Fahrenheit,Kelvin</h5>
+    <hr>
+    <form>
+        <p><input type="number" required id="degree" placeholder="Enter Degree"></p>
+    </form>
+    <form id="form">
+        <label for="" id="type">Type</label>
+        <select name="type" id="num2-el">
+            <option value="Celsius" id="cel-el">Celsius</option>
+            <option value="Fahrenheit" id="fah-el">Fahrenheit</option>
+            <option value="Kelvin" id="kev-el">Kelvin</option>
+        </select>
+    </form>
+    <br>
+    <button onclick="myFunction()">Convert</button>
+    <br>
+    <p id="res1-el"></p>
+    <p id="res2-el"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

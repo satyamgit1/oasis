@@ -1,0 +1,197 @@
+body {
+    margin: 30;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    background: #1257b7;
+}
+
+button {
+    width: 170px;
+    height: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b36c6c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 430px;
+    background: #5a9f88;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+h5 {
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#con {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 90px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #52b3c6;
+}
+
+#tem {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 52px;
+    top: 108px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+#deg {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 52px;
+    top: 300px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+#degree {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 52px;
+    top: 300px;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #171313;
+}
+
+hr {
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 500px;
+    border: 1px solid #2F3E53;
+
+}
+
+#res1-el {
+    flex-direction: row;
+    position: relative;
+    width: 250px;
+    height: 39px;
+    left: 52px;
+    top: 500px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+#res2-el {
+    flex-direction: row;
+    position: relative;
+    width: 250px;
+    height: 39px;
+    left: 52px;
+    top: 500px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+#form {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 52px;
+    top: 350px;
+    color: black;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    color: #171313;
+}
+
+#type {
+    width: 354px;
+    height: 50px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#num2-el {
+    width: 120px;
+    height: 40px;
+    border: rgb(31, 112, 85);
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        position: fixed;
+        width: 600px;
+        height: 480px;
+        background: #1F2937;
+    }
+
+}

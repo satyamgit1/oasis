@@ -1,0 +1,105 @@
+* {
+    margin: 10px;
+    font-family: monospace;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    border: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px;
+
+}
+
+h6 {
+    border-radius: 50px;
+    border-color: #0388EF;
+    border: 10px;
+}
+
+#nav-bar>a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+#home>h3 {
+    font-size: 30px;
+}
+
+#nocode {
+    color: #0388EF;
+}
+
+#register {
+    color: #FFFFFF;
+    background-color: #FF7100;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+}
+
+#platform {
+    background-color: #0388EF;
+    border-radius: 10px;
+}
+
+#platform {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactus {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+#Context {
+    display: flex;
+    flex-direction: row;
+}
+
+#parteners {
+    padding-top: 50px;
+}
+
+#links {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+button {
+    color: white;
+    background-color: rgb(48, 48, 170);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(59, 178, 189);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    height: 50px;
+}
+
+#register:hover {
+    color: white;
+    background-color: rgb(209, 146, 79);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    height: 50px;
+}
